@@ -1,0 +1,16 @@
+{
+  "name": "chaos-engineering-lnl",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/dblandin/chaos-engineering-lnl",
+  "author": "Devon Blandin",
+  "license": "MIT",
+  "dependencies": {
+    "@mdx-deck/themes": "^3.0.8",
+    "mdx-deck": "^3.0.8"
+  },
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "now-build": "mdx-deck build deck.mdx"
+  }
+}
